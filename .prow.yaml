@@ -1,9 +1,8 @@
-# .prow.yaml
 presubmits:
 - name: test-required-job
   always_run: false
   optional: true
-  decorate: true
+  decorate: false
   spec:
     containers:
     - image: alpine
