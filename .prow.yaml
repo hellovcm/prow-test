@@ -1,7 +1,7 @@
 presubmits:
 - name: test-required-job
-  always_run: false
-  optional: true
+  always_run: true
+  optional: false
   decorate: false
   spec:
     containers:
