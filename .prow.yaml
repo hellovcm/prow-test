@@ -1,0 +1,13 @@
+# .prow.yaml
+presubmits:
+- name: test-required-job
+  always_run: false
+  optional: true
+  decorate: true
+  spec:
+    containers:
+    - image: alpine
+      command:
+      - echo
+      args:
+      - hello
